@@ -4,7 +4,7 @@
   "description": "This assignment will help you stand up a web API using Express and the module that you produced for a03.",
   "main": "server.js",
   "scripts": {
-    "test": "\"node server.js --port=5555\""
+    "test": "node server.js --port=5555"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/comp426-2023-spring/a04-CadenAlford/issues"
   },
-  "homepage": "https://github.com/comp426-2023-spring/a04-CadenAlford#readme"
+  "homepage": "https://github.com/comp426-2023-spring/a04-CadenAlford#readme",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2",
+    "minimist": "^1.2.8"
+  }
 }
